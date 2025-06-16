@@ -1,0 +1,14 @@
+name: Hello World greeting
+description: To greet someone with their given name
+
+inputs:
+  name:
+    description: Who we are greeting
+    required: true
+    default: World
+outputs:
+  greeting:
+    description: The response
+runs:
+  using: 'node20'
+  main: index.js
